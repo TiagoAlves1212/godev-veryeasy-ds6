@@ -14,5 +14,5 @@ function inverteTexto(str) {
 btnDec.addEventListener('click', () => {
     const inputText = document.querySelector('#input-text');
     const result = inverteTexto(inputText.value);
-    document.querySelector('#result').innerText = `Maior letra é: ${result}`
+    document.querySelector('#result').innerText = `Cada palavra invertida: ${result}`
 })
